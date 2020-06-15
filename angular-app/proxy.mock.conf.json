@@ -1,0 +1,24 @@
+[
+  {
+    "context": [
+      "/content/**/*.model.json"
+    ],
+    "pathRewrite": { "^/content/wknd-events" : "/mocks/json"} ,
+    "target": "http://localhost:4200",
+    "logLevel": "debug"
+  },
+  {
+    "context": [
+      "/content/**/*.jpg",
+      "/content/**/*.jpeg",
+      "/content/**/*.svg"
+    ],
+    "pathRewrite": { ".*": "/200/34" },
+    "target": "https://www.fillmurray.com",
+    "pathRewrite-backup": { ".*": "/mocks/assets/fpo.jpg" },
+    "target-backup": "http://localhost:4200",
+    "logLevel": "debug",
+    "secure": true,
+    "changeOrigin": true
+  }
+]

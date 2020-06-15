@@ -1,0 +1,6 @@
+@import "~src/sass/shared";
+
+:host-context {
+  display: block;
+  @include component-padding();
+}

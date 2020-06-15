@@ -1,0 +1,152 @@
+{
+  ":items": {},
+  ":itemsOrder": [],
+  ":type": "wknd-events/components/structure/app",
+  ":hierarchyType": "page",
+  ":children": {
+    "/content/wknd-events/angular/home": {
+      ":items": {
+        "root": {
+          "columnClassNames": {
+            "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnCount": 12,
+          "allowedComponents": {
+            "applicable": false,
+            "components": [
+              {
+                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                "title": "Layout Container"
+              },
+              {
+                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/image",
+                "title": "Image"
+              },
+              {
+                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/list",
+                "title": "List"
+              },
+              {
+                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/text",
+                "title": "Text"
+              }
+            ]
+          },
+          ":items": {
+            "responsivegrid": {
+              "columnClassNames": {
+                "responsivegrid_1078323293": "aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                "responsivegrid": "aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnCount": 12,
+              "allowedComponents": {
+                "applicable": false,
+                "components": [
+                  {
+                    "path": "/content/wknd-events/angular/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                    "title": "Layout Container"
+                  },
+                  {
+                    "path": "/content/wknd-events/angular/home/jcr:content/root/responsivegrid/wknd-events/components/content/image",
+                    "title": "Image"
+                  },
+                  {
+                    "path": "/content/wknd-events/angular/home/jcr:content/root/responsivegrid/wknd-events/components/content/list",
+                    "title": "List"
+                  },
+                  {
+                    "path": "/content/wknd-events/angular/home/jcr:content/root/responsivegrid/wknd-events/components/content/text",
+                    "title": "Text"
+                  }
+                ]
+              },
+              ":items": {
+                "responsivegrid": {
+                  "columnClassNames": {
+                    "image": "aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                    "text": "aem-GridColumn aem-GridColumn--default--8",
+                    "text_459539161": "aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--8",
+                  "columnCount": 12,
+                  "allowedComponents": {
+                    "applicable": false,
+                    "components": []
+                  },
+                  ":items": {
+                    "text": {
+                      "text": "<h2>AEM IS LOVE, AEM IS LIFE</h2>\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "image": {
+                      "alt": "AEM Core Components",
+                      "title": "AEM Core Components",
+                      "src": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg.svg/1592059534199/aem-corecomponents-logo.svg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.svg/1592059534199/aem-corecomponents-logo.svg",
+                      "areas": [],
+                      "uuid": "401835a1-832c-427f-a508-c7f55495a4df",
+                      "lazyEnabled": false,
+                      "widths": [],
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text_459539161": {
+                      "text": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n<p>&nbsp;</p>\r\n<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text", "image", "text_459539161"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                },
+                "responsivegrid_1078323293": {
+                  "columnClassNames": {
+                    "image": "aem-GridColumn aem-GridColumn--default--4",
+                    "text": "aem-GridColumn aem-GridColumn--default--4"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--4",
+                  "columnCount": 12,
+                  "allowedComponents": {
+                    "applicable": false,
+                    "components": []
+                  },
+                  ":items": {
+                    "image": {
+                      "src": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid_1078323293/image.coreimg.jpeg/1592244063187/bear-bottom.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid_1078323293/image.coreimg{.width}.jpeg/1592244063187/bear-bottom.jpeg",
+                      "areas": [],
+                      "uuid": "a5fcd1e7-5c52-4480-98cb-d962b079d862",
+                      "lazyEnabled": false,
+                      "widths": [],
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text": {
+                      "text": "<h3>Lorem Ipsum Ridiculous</h3>\r\n<p>&nbsp;</p>\r\n<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["image", "text"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                }
+              },
+              ":itemsOrder": ["responsivegrid", "responsivegrid_1078323293"],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": ["responsivegrid"],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": ["root"],
+      ":type": "wknd-events/components/structure/page",
+      ":hierarchyType": "page",
+      ":path": "/content/wknd-events/angular/home",
+      "title": "Home"
+    }
+  },
+  ":path": "/content/wknd-events/angular",
+  "title": "Angular App"
+}

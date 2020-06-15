@@ -1,0 +1,13 @@
+[
+  {
+    "context": [
+      "/content/**/**.model.json",
+      "/content/**/**.jpeg",
+      "/content/**/**.jpg",
+      "/content/**/**.svg"
+    ],
+    "target": "http://localhost:4502",
+    "auth": "admin:admin",
+    "logLevel": "debug"
+  }
+]
